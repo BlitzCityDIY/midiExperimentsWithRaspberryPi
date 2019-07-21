@@ -1,8 +1,8 @@
 Label 		Part Type 		
-D1 		1N4148 		
-DIN1 		DIN-5 jack (MIDI) 	
-IC1 		6N138 Optoisolator 		
-R1 		220O Resistor 		
-R2 		470O Resistor 		
-R3 		10kO Resistor 		
-Raspberry Pi  	Raspberry Pi 3 or 4 		
+D1 		    1N4148 		
+DIN1 		  DIN-5 jack (MIDI) 	
+IC1 		  6N138 Optoisolator 		
+R1 		    220 ohm Resistor 		
+R2 		    470 ohm Resistor 		
+R3 		    10k ohm Resistor 		
+Pi  	    Raspberry Pi 3 or 4 		
