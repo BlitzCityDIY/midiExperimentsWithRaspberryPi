@@ -1,0 +1,7 @@
+from midi import MidiConnector
+
+conn = MidiConnector('/dev/serial0', 38400)
+
+while True:
+    msg = conn.read()
+    print(msg.type)
