@@ -1,6 +1,8 @@
 # midiExperimentsWithRaspberryPi
 Using MIDI over UART with Raspberry Pi
 
+Examples are using the py-midi library: https://pypi.org/project/py-midi/
+
 If using MIDI over UART with a Pi 3 or 4 on Stretch or Buster, you'll need to make the following edits:
 
 sudo nano /boot/cmdline.txt
