@@ -18,7 +18,9 @@ sudo nano /boot/config.txt
     # add:
     
 enable_uart=1
+
 dtoverylay=pi3-miniuart-bt
+
 dtoverlay=midi-uart0
      
     # Check raspi.config to make sure logging in over UART is disabled
