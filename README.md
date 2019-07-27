@@ -7,9 +7,11 @@ If using MIDI over UART with a Pi 3 or 4 on Stretch or Buster, you'll need to ma
 
 sudo nano /boot/cmdline.txt
 
-  -delete: "console=serial0, 115200"
+    # delete: 
   
--save & exit
+console=serial0, 115200
+  
+    # save & exit
 
 sudo nano /boot/config.txt
 
@@ -19,11 +21,11 @@ enable_uart=1
 dtoverylay=pi3-miniuart-bt
 dtoverlay=midi-uart0
      
--Check raspi.config to make sure logging in over UART is disabled
+    # Check raspi.config to make sure logging in over UART is disabled
 
 sudo reboot
 
--Checking settings after reboot
+    # Checking settings after reboot
 
 vcgencmd measure_clock uart 
 
